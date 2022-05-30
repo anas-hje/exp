@@ -1,0 +1,26 @@
+*{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.contact{
+  display:flex ;
+  justify-content: center;
+  align-items:center ;
+  min-height: 100vh;
+  left: -20px;
+  background-color: #378b29;
+  background-image: linear-gradient(90deg, #58b401d3 0%, #071302 100%);
+}
+.contact::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: whitesmoke;
+}
+.home{
+  
+}
